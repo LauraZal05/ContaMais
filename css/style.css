@@ -1,0 +1,66 @@
+#menu ul {
+    padding:0px;
+    margin:0px;
+    list-style:none;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 20px;
+    color: black;
+    text-align: center;
+    border-color: black;
+    background-color: #FFD3D3;
+    border-radius: 20px 20px 20px 20px;
+    background-image: url(icone.png.png);
+    border: 2px solid #FD6969;
+
+}
+
+#menu ul li { display: inline; }
+
+#logo{
+width: 500;
+height: 500;
+text-align: center;
+border-radius: 50px;
+border: 2px solid #FF9494;
+}
+
+#explicacao {
+font-family: 'Ubuntu', sans-serif;
+text-align: center;
+font-size: 22px;
+border-radius: 20px 20px 20px 20px;
+background-color: #FFB9B9;
+border: 2px solid #FF9494;
+}
+#canto {
+text-align: right;
+font-family: 'Ubuntu', sans-serif;
+font-size: 18px;
+color: black;
+background-image: url("image/fundo.png");
+background-position: left;
+background-repeat: no-repeat;
+background-size: 200px;
+background-position: bottom;
+
+}
+
+a{
+color: black;
+
+}
+
+#fundo {
+text-align: right;
+width: 600px;
+height: 600px;
+
+
+}
+
+h3{
+font-family: 'Ubuntu', sans-serif;
+font-size: 30px;
+color:#FF5151;
+text-align: left;
+}
