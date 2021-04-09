@@ -1,0 +1,36 @@
+#introducao {
+font-family: 'Ubuntu', sans-serif;
+font-size: 18px;
+text-align: center;
+color: black;
+}
+
+h1{
+font-family: 'Ubuntu', sans-serif;
+color: black;
+font-size: 30px;
+text-align: center;
+}
+
+a{
+color: #FF5151;
+font-family: 'Ubuntu', sans-serif;
+font-size: 18px;
+}
+
+h4{
+text-align: center;
+}
+
+img:first-of-type{
+width: 90;
+height: 90;
+}
+
+h5{
+color: #FF5151;
+font-family: 'Ubuntu', sans-serif;
+font-size: 18px;
+text-align: center;
+
+}
