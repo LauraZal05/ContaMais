@@ -18,10 +18,12 @@ p{
 font-family: 'Ubuntu', sans-serif;
 font-size: 18px;
 color: black;
+text-align: center;
 }
 
 h2{
   font-family: 'Ubuntu', sans-serif;
-  font-size: 20px;
+  font-size: 30px;
   color: #333233;
+  text-align: center;
 }
