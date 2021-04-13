@@ -1,13 +1,8 @@
 a{
 color: #FF5151;
 font-family: 'Ubuntu', sans-serif;
-font-size: 18px;
-}
-
-img {
-width: 800px;
-height: 900px;
-align-items: center;
+font-size: 25px;
+text-align: center;
 }
 
 h1{
@@ -24,10 +19,12 @@ p{
 font-family: 'Ubuntu', sans-serif;
 font-size: 18px;
 color: black;
+text-align: center;
 }
 
 h2{
   font-family: 'Ubuntu', sans-serif;
-  font-size: 20px;
+  font-size: 30px;
   color: #333233;
+  text-align: center;
 }
