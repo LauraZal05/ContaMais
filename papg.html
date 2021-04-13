@@ -1,0 +1,92 @@
+<html>
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<meta http-equiv="X-UA-Compatible" content="ie=edge" />
+<link type='text/css' rel='stylesheet' href="css/geral.css">
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@1,700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <img src="image/abacus.png" width="100" height="100" />
+<h1> Progressão aritmética (PA) </h1>
+<p>A progressão aritmética é aquela sequência numérica em que cada termo</p>
+<p>(a partir do segundo) corresponde à soma do anterior com um valor chamado razão(r).</p>
+<p>Então, se você começa por um número qualquer e a ele soma um valor r, obtém o segundo número da PA.</p>
+<p> Então, somando novamente r, chega ao 3º termo e assim por diante. </p>
+ <p>Uma PA de três termos, em que o primeiro termo seja chamado de a, pode ser mostrada assim:  </p>
+<p> <b> PA (a, a + r, a + 2r)</b></p>
+<p>Ou seja, a é o primeiro termo, a + r o segundo, e a + 2r o terceiro. </p>
+
+<h2>PA finita<h2>
+<p>É aquela PA que já possuí um número definido de termos. </p>
+<p>Por exemplo, uma PA de cinco termos na qual o termo inicial é 0 e a razão é 2:</p>
+<p> <b>PA (0, 2, 4, 6, 8) </b> </p>
+
+<h2>PA infinita</h2>
+<p>A PA é infinita quando o domínio em que ela está inserida é infinito.</p>
+<p> Veja o exemplo abaixo: </p>
+<p> <b> PA (10, 11, 12, 13, 14…) </b> </p>
+
+<h2>PA crescente</h2>
+<p>Uma PA é crescente quando a razão entre os termos é positiva, ou seja, r > 0.</p>
+<p>Assim, cada novo termo é maior que o anterior.</p>
+
+<h2>PA decrescente</h2>
+<p>Quando a razão é negativa, ou seja, r < 0, então a PA é decrescente, pois cada </p>
+<p>novo termo é menor que o antecessor dele.</p>
+
+<h2>PA constante</h2>
+<p>A PA pode ser constante, se r = 0. Nesse caso, os termos são todos iguais.</p>
+
+<h2>Razão da PA</h2>
+<p>Agora, vejamos como encontrar a razão de uma PA. É simples, se você tiver pelo menos dois termos consecutivos. Se você souber an e também a(n-1) ou a(n+1), basta fazer a subtração entre o termo de maior posição e seu antecessor. Calcule: </p>
+<p> <b>r = an – a(n-1) ou r = a(n+1) – an </b> </p>
+<p>Caso não saiba dois termos consecutivos, use a fórmula do termo geral, isolando r. Desta forma: </p>
+<p> <b>R = (an – a1)/(n – 1)</b> </p>
+
+<h2>Soma dos termos da PA</h2>
+<p>Essa é uma questão muito comum. Como saber a soma dos termos de uma PA (Sn), sem ter que</p>
+
+
+	<h1> Progressão geométrica (PG) </h1>
+  <p> A progressão geométrica (PG) não é muito diferente da PA. O princípio é o mesmo: uma sequência numérica que tem uma lógica. Mas, no caso da PG, a razão (na PG, a razão é identificada por “q”) não é somada ao termo anterior, mas multiplicada. Para entender melhor, veja como uma PG pode ser representada: </p>
+<p> <b> PG ( a, a.q) </b> </p>
+
+
+<h2> PG finita </h2>
+<p>Tem número finito de termos. Por exemplo, a PG de 5 termos, com a1 = 1 e q = 10: </p>
+<p>PG (1, 10, 100, 1000, 10000)</p>
+
+<h2>PG infinita </h2>
+<p>Já a PG infinita é aquela que está em um domínio infinito, sem especificação da quantidade de termos. Veja a PG com a1 = 1 e q = 2: </p>
+<p><b>PG (1, 2, 4, 8, 16…)</b></p>
+
+<h2>PG crescente</h2>
+<p>Na PG crescente, cada termo é maior que o anterior. Isso acontece quando: </p>
+<p> -o termo inicial é maior que zero e a razão é maior que 1 (a1 > 0 e q > 1) — assim, os números serão sempre positivos e cada vez maiores; </p>
+<p> -o termo inicial é menor que zero e a razão está entre 0 e 1 (a1 < 0 e 0 < q < 1) — assim, ao multiplicar o número negativo pela razão, o próximo número será menor em módulo, mas estará mais próximo de zero e, portanto, crescendo. </p>
+<h2>PG constante</h2>
+<p> Na PG constante, a razão é igual a 1 e cada termo é igual ao anterior. </p>
+
+<h2>PG alternante</h2>
+<p> Essa PG alterna o sinal de cada membro quando o primeiro deles é diferente de zero e a razão é negativa (a1 ≠ 0 e q < 0). </p>
+
+<h2>PG estacionária</h2>
+<p> Acontece quando o primeiro termo é diferente de zero, mas a razão é zero, fazendo com que os demais também sejam nulos (a1 ≠ 0 e q = 0).</p>
+
+<h2>Razão da PG</h2>
+<p>Para calcular a razão da PG, dividimos dois termos consecutivos: o último fica no numerador, e seu antecessor no denominador. Ou seja: </p>
+<p><b>q = a(n+1)/an</b> </p>
+<p>Mas, sem conhecer dois termos consecutivos, podemos fazer o cálculo usando o termo geral da PG, substituindo os outros valores e encontrando q: </p>
+<p><b>an = a1 . q(n-1)</b></p>
+
+<h2>Soma dos termos da PG</h2>
+<p>Para saber quanto dá a soma dos termos de uma PG (Sn), anote a fórmula:</p>
+<p><b>Sn = a1 . (qn – 1)/(q – 1)</b></p>
+<p>A PG infinita permite calcular a soma dos termos (S). A fórmula é a seguinte:</p>
+<p><b>S = a1/(1 – q)</b></p>
+
+<a href="conteudo.html"> clique aqui para voltar </a>
+</body>
+</html>
