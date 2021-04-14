@@ -28,3 +28,11 @@ h2{
   color: #333233;
   text-align: center;
 }
+
+ul, li{
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 18px;
+  color: black;
+  text-align: center;
+  
+}
