@@ -28,3 +28,23 @@ h2{
   color: #333233;
   text-align: center;
 }
+
+
+h3{
+font-family: 'Ubuntu', sans-serif;
+color: black;
+font-size: 30px;
+text-align: center;
+border-radius: 20px 20px 20px 20px;
+background-color: ##32a875;
+border: 2px solid ##195c3f;
+}
+h4{
+font-family: 'Ubuntu', sans-serif;
+color: black;
+font-size: 30px;
+text-align: center;
+border-radius: 20px 20px 20px 20px;
+background-color:#fff457;
+border: 2px solid #e0d426;
+} 
