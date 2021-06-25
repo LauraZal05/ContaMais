@@ -37,7 +37,7 @@ h3{
   text-align: center;
   border-radius: 20px 20px 20px 20px;
   background-color: #32a875;
-  border: 2px solid ##195c3f;
+  border: 2px solid #195c3f;
 }
 
 h4{
@@ -48,4 +48,11 @@ h4{
   border-radius: 20px 20px 20px 20px;
   background-color: #fff457;
   border: 2px solid #e0d426;
+}
+
+li {
+color: #FF5151;
+font-family: 'Ubuntu', sans-serif;
+font-size: 18px;
+
 }
